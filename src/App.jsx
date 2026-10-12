@@ -144,7 +144,7 @@ function App() {
     <>
       <header className="nav-shell">
         <a href="#top" aria-label="Creditteam home"><img src="/creditteam-logo.svg" alt="Creditteam" /></a>
-        <nav aria-label="Primary navigation"><a href="#workflow">Workflow</a><a href="#capabilities">Capabilities</a><a href="#governance">Governance</a></nav>
+        <nav aria-label="Primary navigation"><a href="#workflow">Workflow</a><a href="#capabilities">Capabilities</a><a href="#journey">Journey</a><a href="#governance">Governance</a></nav>
         <button className="nav-cta" onClick={openDialog}>Request a demo <ArrowRight size={15} /></button>
       </header>
 
@@ -176,6 +176,25 @@ function App() {
             <article><span>03</span><LinkSimple /><h3>Source traceability</h3><p>Keep evidence references attached to the facts they support.</p></article>
             <article><span>04</span><Warning /><h3>Review findings</h3><p>Make missing information and inconsistencies visible.</p></article>
           </div>
+        </section>
+
+        <section className="journey" id="journey">
+          <div className="journey-heading">
+            <span className="eyebrow">Built in partnership</span>
+            <h2>From credit preparation to a more connected due diligence platform.</h2>
+            <p>Creditteam is being built as a journey customers can help shape. The direction is clear: reduce repetitive diligence work while preserving the evidence, controls, and judgment serious credit decisions require.</p>
+          </div>
+          <div className="product-proof">
+            <figure className="product-shot product-shot-wide"><div className="product-shot-bar"><span>Current platform</span><span>Credit paper profile setup</span></div><img src="/product/review-profile.png" loading="lazy" alt="Creditteam platform showing a credit paper profile review and section ordering workflow" /></figure>
+            <figure className="product-shot product-shot-small"><div className="product-shot-bar"><span>Current platform</span><span>Deal workspace</span></div><img src="/product/deal-workspace.png" loading="lazy" alt="Creditteam deal workspace with documents, fact sheet, credit paper, and final review stages" /></figure>
+            <figure className="product-shot product-shot-small"><div className="product-shot-bar"><span>Current platform</span><span>Paper ingestion</span></div><img src="/product/paper-ingestion.png" loading="lazy" alt="Creditteam platform showing the credit paper upload and validation workflow" /></figure>
+          </div>
+          <div className="journey-roadmap">
+            <article className="roadmap-phase"><div className="phase-meta"><span>Now</span><small>Available direction</small></div><h3>Structure the credit paper workflow.</h3><p>Bring documents into a controlled workspace, organise the fact base, prepare the paper, and keep human review visible.</p><ul><li>Document-led deal workspace</li><li>Structured paper preparation</li><li>Reviewer-controlled output</li></ul></article>
+            <article className="roadmap-phase"><div className="phase-meta"><span>Next</span><small>Product direction</small></div><h3>Extend evidence across due diligence.</h3><p>Reduce repetitive checking across a broader deal file by linking extracted information, open questions, and source evidence.</p><ul><li>Broader evidence collection</li><li>Cross-document consistency review</li><li>Clearer diligence work queues</li></ul></article>
+            <article className="roadmap-phase"><div className="phase-meta"><span>Horizon</span><small>Shared ambition</small></div><h3>Move toward continuous diligence.</h3><p>Help teams revisit assumptions and new information over the life of a deal while keeping decision responsibility with people.</p><ul><li>Ongoing evidence refresh</li><li>Change and exception visibility</li><li>Institutional knowledge continuity</li></ul></article>
+          </div>
+          <p className="roadmap-note">This roadmap communicates direction, not delivery commitments. Priorities and sequencing will be shaped with customers.</p>
         </section>
 
         <section className="output" id="output">
